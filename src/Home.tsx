@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom";
 import Timer from './Timer';
+import Notepad from './Notepad';
 
 function Home() {
     const navigate = useNavigate();
@@ -18,6 +19,7 @@ function Home() {
         <Timer></Timer>
         <div id='spotify'>Spotify API here</div>
         <div id='notepad'>Notepad here</div>
+        <Notepad></Notepad>
         <div id='todo-list'>Todo list here</div>
       </div>
     </>
